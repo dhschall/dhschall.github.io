@@ -3,6 +3,9 @@
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
 
+# Activate this widget? true/false
+active: true
+
 # This file represents a page section.
 headless: true
 
@@ -31,9 +34,14 @@ content:
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 design:
+  # view: citation
+  # columns: '2'
   # Choose a view for the listings:
-  view: citation
-  columns: '2'
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   4 = Citation (publication only)
+  view: 3
 ---
 
 {{% callout note %}}
