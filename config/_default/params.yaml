@@ -8,8 +8,8 @@
 appearance:
   theme_day: theme1
   theme_night: theme1
-  font: minimal
-  font_size: S
+  font: fontset
+  font_size: M
 
 # SEO
 
@@ -18,8 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'Research homepage from David Schall'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -41,9 +41,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} David Schall. All rights reserved'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -62,6 +62,7 @@ features:
     enable: true
     extra_languages:
       - r
+      - python
       - latex
   math:
     enable: false
@@ -70,12 +71,12 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/dhschall/dhschall.github.io'
     content_dir: content
-    branch: master
+    branch: main
   avatar:
     gravatar: false
-    shape: circle
+    shape: square
   comment:
     provider: ''
     disqus:
@@ -91,7 +92,7 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: ''
+    provider: mapnik
     api_key: ''
     zoom: 15
 
@@ -99,8 +100,8 @@ features:
 
 extensions:
   cms:
-    branch: master
-    local_backend: false
+    branch: main
+    local_backend: true
   isotope:
     # Enable if you use the Portfolio widget or Publication filter
     enable: true

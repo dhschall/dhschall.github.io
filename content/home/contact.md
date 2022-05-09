@@ -28,16 +28,21 @@ content:
   #     captcha: false
 
   # Contact details (edit or remove options as required)
-  email: d.h<dot><surname>@ed.ac.uk
+  # address:
+  #   # - School of Informatics
+  #   # - 10 Crichton Street
+  #   # - Room: 1.04
+  #   # - Edinburgh EH8 9AB, United Kingdom
+  #   building: Informatics Forum, Office 1.05
+  #   street: 10 Crichton Street
+  #   city: Edinburgh
+  #   # region: CA
+  #   postcode: 'EH8 9AB'
+  #   country: United Kingdom
+  #   country_code: UK
+
+  # email: d.h<dot><surname>@ed.ac.uk
   # phone: 888 888 88 88
-  address:
-    building: Informatics Forum, Office 1.05
-    street: 10 Crichton Street
-    city: Edinburgh
-    # region: CA
-    postcode: 'EH8 9AB'
-    country: United Kingdom
-    country_code: UK
   coordinates:
     latitude: '55.94446'
     longitude: '-3.1874269408556715'
@@ -58,5 +63,18 @@ content:
   #     link: 'https://zoom.com'
 
 design:
-  columns: '2'
+  columns: '1'
+  spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+    padding: ["30px", "0", "30px", "0"]
 ---
+
+**David Schall**
+
+{{< icon name="fa-thin fa-map-pin" pack="fas" >}}
+&nbsp;School of Informatics \
+&emsp;&ensp; 10 Crichton Street \
+&emsp;&ensp; Room: 1.05 \
+&emsp;&ensp; Edinburgh EH8 9AB, United Kingdom
+
+{{< icon name="fa-thin fa-envelope" pack="fas" >}} d.h.<<surname>>@ed.ac.uk

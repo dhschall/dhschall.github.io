@@ -1,0 +1,18 @@
+name: Spellcheck Action
+on:
+  workflow_dispatch:
+  push:
+    branches: [ gh-pages, main ]
+  pull_request:
+    branches: [ gh-pages, main ]
+
+jobs:
+  build:
+    name: Spellcheck
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: rojopolis/spellcheck-github-actions@0.16.0
+      name: Spellcheck
+      with:
+        config_path: ./.github/configs/spellcheck.yaml # put path to configuration file here
