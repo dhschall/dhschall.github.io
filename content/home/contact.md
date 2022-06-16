@@ -77,4 +77,4 @@ design:
 &emsp;&ensp; Room: 1.05 \
 &emsp;&ensp; Edinburgh EH8 9AB, United Kingdom
 
-{{< icon name="fa-thin fa-envelope" pack="fas" >}} d.h.<<surname>>@ed.ac.uk
+{{< icon name="fa-thin fa-envelope" pack="fas" >}} < firstname >.< surname >@ed.ac.uk

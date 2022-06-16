@@ -79,6 +79,10 @@ highlight_name: true
 
 My research interests span across Computer Architecture and Computer Systems with a particular focus on the processor microarchitecture.
 
-Currently, I am investigating how modern cloud workloads affect the microarchitecture of server cpus.
+<!-- Currently, I am investigating the implications cutting edge cloud workloads have on the microarchitecture of modern server CPU's. In our recent [work]() we identified t -->
+
+Currently, I am investigating the phenomena of [**lukewarm execution**](https://ease-lab.github.io/ease_website/pubs/JUKEBOX_ISCA22.pdf) which appear when cutting edge cloud workloads execute on modern server CPU's.
+
+<!-- In my recent [work](https://ease-lab.github.io/ease_website/pubs/JUKEBOX_ISCA22.pdf) we characterized the implications that this phenomena has on the microarchitecture of the CPU. -->
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

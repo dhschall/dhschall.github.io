@@ -7,7 +7,7 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 70
+weight: 40
 
 title: 'Recent & Upcoming Talks'
 subtitle:
@@ -16,7 +16,7 @@ content:
   # Page type to display. E.g. post, event, publication...
   page_type: event
   # Choose how many pages you would like to display (0 = all pages)
-  count: 1
+  count: 0
   # Filter on criteria
   filters:
     author: ""
@@ -27,7 +27,7 @@ content:
     exclude_past: false
     publication_type: ""
   # Choose how many pages you would like to offset by
-  offset: 0
+  # offset: 0
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 
@@ -37,9 +37,12 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 2
+  view: 1
   columns: '1'
   # spacing:
   #   # Customize the section spacing. Order is top, right, bottom, left.
   #   padding: ["30px", "0", "30px", "0"]
 ---
+
+
+{{< cta cta_text="Show all" cta_link="event/" cta_new_tab="false" >}}
