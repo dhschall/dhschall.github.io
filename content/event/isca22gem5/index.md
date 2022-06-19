@@ -35,9 +35,9 @@ image:
 #   name: Follow
 #   url: https://twitter.com/georgecushen
 url_code: "https://github.com/ease-lab/vSwarm-u"
-url_pdf: ""
-# url_slides: "https://drive.google.com/drive/folders/13pAlBHMC67EzogEvnAI8jLjfMDErcKXW"
-# url_video: "https://www.youtube.com/playlist?list=PLVdxPJaekjWqBsEUwnrYRQCaMqvcDVsBE"
+# url_slides: "https://dhschall.github.io/assets/slides/Gem5-workshop-vSwarm-u-pub.pdf"
+# url_slides: "https://uoe-my.sharepoint.com/:p:/g/personal/s2033074_ed_ac_uk/ERa3WrNTzldFhaB3IrVIdwYBrK_9Ot6QDaxNYpGvJwQwSw?e=sMIXfD"
+url_video: "https://youtu.be/4q69hhO64Cc?t=6363"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -53,6 +53,11 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+<iframe src="https://uoe-my.sharepoint.com/personal/s2033074_ed_ac_uk/_layouts/15/Doc.aspx?sourcedoc={b35ab716-ce53-4557-85a0-7722b5487706}&amp;action=embedview&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=1" width="700px" height="400px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+
+<!-- <iframe src="https://uoe-my.sharepoint.com/personal/s2033074_ed_ac_uk/_layouts/15/Doc.aspx?sourcedoc={b35ab716-ce53-4557-85a0-7722b5487706}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe> -->
+
 
 Serverless computing has emerged as a widely used paradigm for deploying services in the cloud. In serverless, developers organize their application as a set of functions, which are invoked on-demand in response to a trigger, such as user request or an invocation by another function.
 
