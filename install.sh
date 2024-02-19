@@ -2,8 +2,8 @@
 
 sudo apt install -y hugo
 
-wget https://github.com/gohugoio/hugo/releases/download/v0.97.3/hugo_extended_0.97.3_Linux-64bit.deb
-sudo dpkg -i hugo_extended_0.97.3_Linux-64bit.deb
+wget https://github.com/gohugoio/hugo/releases/download/v0.123.0/hugo_extended_0.123.0_linux-amd64.deb
+sudo dpkg -i hugo_extended_0.123.0_linux-amd64.deb
 
 
 # Update the Wowchemy Hugo module

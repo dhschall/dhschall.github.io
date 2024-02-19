@@ -11,6 +11,6 @@ view: 4
 
 # Optional header image (relative to `static/media/` folder).
 header:
-  caption: ""
+  caption: "Full list of publications can be found in my [google scholar](https://scholar.google.com/citations?user=ZmmKWBcAAAAJ&hl=en)"
   image: ""
 ---

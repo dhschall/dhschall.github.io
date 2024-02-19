@@ -82,12 +82,19 @@ highlight_name: true
 
 <!-- Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
 
-My research interests span across Computer Architecture and Computer Systems with a particular focus on the processor microarchitecture.
+
+I am a final year PhD student in the Edinburgh Architecture and Systems Lab (EASE) led by Prof. Boris Grot at the University of Edinburgh. My research interests span Computer Architecture and Computer Systems. In particular, I'm interested in CPU microarchitecture and the hardware and software interface. 
+
+In my last work, I studied the detrimental effects of frequent context switches in modern cloud workloads.
+
+Currently, I am investigating how the ever-increasing instruction working sets of modern server applications stress the CPU microarchitecture.
+
 
 <!-- Currently, I am investigating the implications cutting edge cloud workloads have on the microarchitecture of modern server CPU's. In our recent [work]() we identified t -->
 
-Currently, I am investigating the phenomena of [**lukewarm execution**](https://ease-lab.github.io/ease_website/pubs/JUKEBOX_ISCA22.pdf) which appear when cutting edge cloud workloads execute on modern server CPU's.
+<!-- Currently, I am investigating the phenomena of  which appear when cutting edge cloud workloads execute on modern server CPU's. -->
 
 <!-- In my recent [work](https://ease-lab.github.io/ease_website/pubs/JUKEBOX_ISCA22.pdf) we characterized the implications that this phenomena has on the microarchitecture of the CPU. -->
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
+

@@ -40,7 +40,14 @@ abstract: |2-
     We identify on-chip misses for instructions as a major contributor to the performance loss. In response we propose Jukebox, a record-and-replay instruction prefetcher specifically designed for reducing the start-up latency of warm function instances. Jukebox requires just 32KB of metadata per function instance and boosts performance by an average of 18.7% for a wide range of functions, which translates into a corresponding throughput improvement.
 
 # Summary. An optional shortened abstract.
+# summary: |
+#     *IEEE MICRO Top Picks Honorable Mention*
+#     {style="color: red"}
+
+#     Our upcoming ISCA'22 paper analyzes serverless functions on modern hardware, identifying new challenges and specialization opportunities.
+
 summary: Our upcoming ISCA'22 paper analyzes serverless functions on modern hardware, identifying new challenges and specialization opportunities.
+
 
 tags: []
 
@@ -82,6 +89,11 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
+<!-- {{% callout note %}}
+IEEE MICRO Top Picks Honorable Mention 
+{{% /callout %}} -->
+
 <!--
 {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
