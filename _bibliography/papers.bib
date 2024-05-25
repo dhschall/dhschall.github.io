@@ -3,83 +3,78 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
+
+
+
+
+
+@inproceedings{10.1145/3613424.3614258,
+  abbr={MICRO},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  code={https://github.com/dhschall/gem5-fdp},
+  pdf={IGNITE_MICRO23.pdf},
+  slides={IGNITE_MICRO23-Slides.pdf},
+  selected={true},
+
+  author = {Schall, David and Sandberg, Andreas and Grot, Boris},
+  title = {Warming Up a Cold Front-End with Ignite},
+  year = {2023},
+  isbn = {9798400703294},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3613424.3614258},
+  doi = {10.1145/3613424.3614258},
+  abstract = {Serverless computing is a popular software deployment model for the cloud, in which applications are designed as a collection of stateless tasks. Developers are charged for the CPU time and memory footprint during the execution of each serverless function, which incentivizes them to reduce both runtime and memory usage. As a result, functions tend to be short (often on the order of a few milliseconds) and compact (128–256&nbsp;MB). Cloud providers can pack thousands of such functions on a server, resulting in frequent context switches and a tremendous degree of interleaving. As a result, when a given memory-resident function is re-invoked, it commonly finds its on-chip microarchitectural state completely cold due to thrashing by other functions&nbsp;— a phenomenon termed lukewarm invocation. Our analysis shows that the cold microarchitectural state due to lukewarm invocations is highly detrimental to performance, which corroborates prior work. The main source of performance degradation is the front-end, composed of instruction delivery, branch identification via the BTB and the conditional branch prediction. State-of-the-art front-end prefetchers show only limited effectiveness on lukewarm invocations, falling considerably short of an ideal front-end. We demonstrate that the reason for this is the cold microarchitectural state of the branch identification and prediction units. In response, we introduce Ignite, a comprehensive restoration mechanism for front-end microarchitectural state targeting instructions, BTB and branch predictor via unified metadata. Ignite records an invocation’s control flow graph in compressed format and uses that to restore the front-end structures the next time the function is invoked. Ignite outperforms state-of-the-art front-end prefetchers, improving performance by an average of 43\% by significantly reducing instruction, BTB and branch predictor MPKI.},
+  booktitle = {Proceedings of the 56th Annual IEEE/ACM International Symposium on Microarchitecture},
+  pages = {254–267},
+  numpages = {14},
+  keywords = {instruction delivery, front-end prefetching and serverless, Microarchitecture},
+  location = {<conf-loc>, <city>Toronto</city>, <state>ON</state>, <country>Canada</country>, </conf-loc>},
+  series = {MICRO '23}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{10.1145/3604930.3605719,
+  abbr={HotCarbon},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  author = {Woodruff, Jackson and Schall, David and O'Boyle, Michael F.P. and Woodruff, Christopher},
+  title = {When Does Saving Power Save the Planet?},
+  year = {2023},
+  isbn = {9798400702426},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3604930.3605719},
+  doi = {10.1145/3604930.3605719},
+  abstract = {The computing industry accounts for 2\% of the world's emissions. Power-efficient computing is a frequent topic of research, but saving power does not always save the environment. Jevons' paradox states that resource savings from increases in efficiency will be more than compensated for by increased demand by a process called rebound --- making these ineffective ways to decrease emissions.This is not the case for all applications within computing: applications whose demand is inelastic with respect to power consumption can have reduced power consumption. We analyze several large fields within computer science, including ML, the Internet and IoT, and provide directions on where power efficiency savings will help reduce carbon emissions.We present the economic tools needed to decide whether power-efficiency improvements are likely to result in reduced or increased emissions. We conclude that many problems in computer science do have characteristics of rebound, meaning that green energy is the only solution for many fields.},
+  booktitle = {Proceedings of the 2nd Workshop on Sustainable Computer Systems},
+  articleno = {20},
+  numpages = {6},
+  keywords = {compute power demand, carbon emissions, rebound effect, jeavons paradox},
+  location = {Boston, MA, USA},
+  series = {HotCarbon '23}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@inproceedings{10.1145/3470496.3527390,
+  abbr={ISCA},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  code={https://github.com/vhive-serverless/vSwarm-u},
+  pdf={JUKEBOX_ISCA22.pdf},
+  selected={true},
+  slides={JUKEBOX_ISCA22-Slides.pdf},
+  note = {<p style="color:--global-theme-color">IEEE MICRO Top Picks Honorable Mention</p>},
+
+  author = {Schall, David and Margaritov, Artemiy and Ustiugov, Dmitrii and Sandberg, Andreas and Grot, Boris},
+  title = {Lukewarm serverless functions: characterization and optimization},
+  year = {2022},
+  isbn = {9781450386104},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3470496.3527390},
+  doi = {10.1145/3470496.3527390},
+  abstract = {Serverless computing has emerged as a widely-used paradigm for running services in the cloud. In serverless, developers organize their applications as a set of functions, which are invoked on-demand in response to events, such as an HTTP request. To avoid long start-up delays of launching a new function instance, cloud providers tend to keep recently-triggered instances idle (or warm) for some time after the most recent invocation in anticipation of future invocations. Thus, at any given moment on a server, there may be thousands of warm instances of various functions whose executions are interleaved in time based on incoming invocations.This paper observes that (1) there is a high degree of interleaving among warm instances on a given server; (2) the individual warm functions are invoked relatively infrequently, often at the granularity of seconds or minutes; and (3) many function invocations complete within a few milliseconds. Interleaved execution of rarely invoked functions on a server leads to thrashing of each function's microarchitectural state between invocations. Meanwhile, the short execution time of a function impedes amortization of the warm-up latency of the cache hierarchy, causing a 31--114\% increase in CPI compared to execution with warm microarchitectural state. We identify on-chip misses for instructions as a major contributor to the performance loss. In response we propose Jukebox, a record-and-replay instruction prefetcher specifically designed for reducing the start-up latency of warm function instances. Jukebox requires just 32KB of metadata per function instance and boosts performance by an average of 18.7\% for a wide range of functions, which translates into a corresponding throughput improvement.},
+  booktitle = {Proceedings of the 49th Annual International Symposium on Computer Architecture},
+  pages = {757–770},
+  numpages = {14},
+  keywords = {serverless, microarchitecture, instruction prefetching, characterization},
+  location = {New York, New York},
+  series = {ISCA '22}
 }
