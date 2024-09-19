@@ -8,11 +8,10 @@ profile:
   align: right
   image: avatar.jpg
   image_circular: false # crops the image to make it circular
-  # more_info: >
-    # <p>School of Informatics</p>
-#     <p>10 Crichton Street</p>
-#     <p>Room 1.05</p>
-#     <p>Edinburgh EH8 9AB, United Kingdom</p>
+#   more_info: >
+#     <p>TUM School of Computation, Information and Technology</p>
+#     <p>Chair of Computer Systems</p>
+#     <p>85748 Garching, Germany</p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
