@@ -1,6 +1,6 @@
 ---
 layout: redirect
-title: cv
+title: CV
 description: My current resume
 # rurl: /cv.pdf
 nav: true

@@ -2,6 +2,7 @@ github_users:
   - dhschall
 
 github_repos:
+  - dhschall/llbp
   - dhschall/gem5-fdp
   - vhive-serverless/vSwarm-u
 
