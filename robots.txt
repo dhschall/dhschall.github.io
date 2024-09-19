@@ -1,3 +1,4 @@
 User-agent: *
+Disallow:
 
-Sitemap: https://dhschall.github.io/sitemap.xml
+Sitemap: https://dhschall.github.io/new-website//sitemap.xml
