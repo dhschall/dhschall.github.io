@@ -26,3 +26,16 @@ My research interests span Computer Architecture and Computer Systems, with a pa
 As Moore's Law slows down and the world's demand for computing power continues to grow, researchers are challenged more than ever to rethink established mechanisms and develop innovative ideas for a sustainable future. In my postdoctoral research, I am eager to address this challenge by expanding my knowledge in the <a href='https://dse.in.tum.de/'>Systems Research Group</a> and exploring new approaches to bring hardware and software closer together.
 
 If you are interested in addressing these challenges together do not hesitate to contact me. I always look for motivated people.
+
+## Student Projects
+
+I am looking for students interested to work on topics on CPU microarchitecture.
+
+An incomplete list of projects:
+- Implementation and evaluation of a modern branch target buffer (BTB) hierarchical in gem5.
+- Implementing a state-of-the-art BTB prefetcher in gem5.
+- Characterization and optimization of modern data center applications in gem5.
+- Evaluating the performance of a multi-block ahead branch predictor in gem5.
+- ...
+
+If one of the projects sounds interesting please contact me.
