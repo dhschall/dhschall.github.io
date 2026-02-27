@@ -32,10 +32,10 @@ If you are interested in addressing these challenges together do not hesitate to
 I am looking for students interested to work on topics on CPU microarchitecture.
 
 An incomplete list of projects:
-- Evaluating criticality in value prediction.
-- Implementing a state-of-the-art BTB hierarchy in gem5.
-- Characterization and optimization of modern data center applications.
-- Evaluating the performance of multi-block ahead branch predictions.
+- Evaluating criticality in value prediction
+- Implementing a state-of-the-art BTB hierarchy in gem5
+- Characterization and optimization of modern data center applications
+- Evaluating the performance of multi-block ahead branch predictions
 - ...
 
 If one of the projects sounds interesting please contact me.
