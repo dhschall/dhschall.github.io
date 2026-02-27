@@ -3,7 +3,7 @@ layout: redirect
 title: CV
 description: My current resume
 # rurl: /cv.pdf
-nav: true
+nav: false
 nav_order: 2
 rurl: resume.pdf
 ---

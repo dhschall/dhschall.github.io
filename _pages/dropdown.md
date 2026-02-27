@@ -10,10 +10,10 @@ children:
   #   permalink: /publications/
   # - title: divider
   - title: CV
-    permalink: /cv/
+    permalink: /assets/pdf/resume.pdf
   - title: divider
   - title: Research Statement
-    permalink: /rstatement/
+    permalink: /assets/pdf/research_statement.pdf
   - title: divider
   # - title: repositories
   #   permalink: /repositories/
