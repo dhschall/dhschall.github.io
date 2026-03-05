@@ -14,7 +14,7 @@ children:
   - title: divider
   - title: Research Statement
     permalink: /assets/pdf/research_statement.pdf
-  - title: divider
+  # - title: divider
   # - title: repositories
   #   permalink: /repositories/
   # - title: divider
