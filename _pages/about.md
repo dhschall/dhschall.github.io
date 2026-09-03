@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I am David, an incomming Assistant Professor in the <a href='https://www.imperial.ac.uk/computing'>Department of Computing</a> at <a href='https://www.imperial.ac.uk/'>Imperial College London</a>.
+Hi, I'm David, an Assistant Professor in the <a href='https://www.imperial.ac.uk/computing'>Department of Computing</a> at <a href='https://www.imperial.ac.uk/'>Imperial College London</a>.
 
 Previously, I completed my PhD at the University of Edinburgh under the guidance of <a href='https://homepages.inf.ed.ac.uk/bgrot/'>Prof. Boris Grot</a> followed by a Posdoc at the <a href='https://dse.in.tum.de/'>Systems Research Group</a> led by <a href='https://dse.in.tum.de/bhatotia/'>Prof. Pramod Bhatotia</a> at the <a href='https://www.tum.de/'>Technical University of Munich</a>..
 
